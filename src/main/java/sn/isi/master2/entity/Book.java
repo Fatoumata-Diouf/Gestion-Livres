@@ -21,6 +21,9 @@ public class Book {
     @Column(nullable = false, unique = true,name = "titre")
     private String title;
 
+    @Column(nullable = false)
+    private String description;
+
     private String auteur ;
     private Double prix;
     private boolean available;

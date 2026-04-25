@@ -24,6 +24,9 @@ public class Membre {
     @Column(nullable = false)
     private String name;
 
+    @Column(nullable = false)
+    private String prenom;
+
     @Column(nullable = false, unique = true)
     private String email;
 

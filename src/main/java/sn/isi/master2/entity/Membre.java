@@ -28,6 +28,6 @@ public class Membre {
     private String prenom  ;
 
     @Column(nullable = false, unique = true)
-    private String email;
+    private String email  ;
 
 }

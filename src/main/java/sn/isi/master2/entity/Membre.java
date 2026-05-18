@@ -25,7 +25,7 @@ public class Membre {
     private String name ;
 
     @Column(nullable = false)
-    private String prenom;
+    private String prenom  ;
 
     @Column(nullable = false, unique = true)
     private String email;

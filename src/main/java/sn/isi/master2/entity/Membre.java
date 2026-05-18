@@ -22,7 +22,7 @@ public class Membre {
     private Integer id;
 
     @Column(nullable = false)
-    private String name;
+    private String name ;
 
     @Column(nullable = false)
     private String prenom;
